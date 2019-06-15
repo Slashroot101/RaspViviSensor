@@ -2,9 +2,8 @@ const sensor = require("node-dht-sensor");
 const Poller = require('Poll');
 const poller = new Poller(100);
 
-poller.poll();
-
 main();
+poller.poll();
 
 function main() {
 
