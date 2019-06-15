@@ -1,5 +1,5 @@
 const sensor = require("node-dht-sensor");
-const Poller = require('Poll');
+const Poller = require('./Poll');
 const poller = new Poller(100);
 
 main();
