@@ -10,7 +10,6 @@ class Poller extends EventEmitter {
     }
 
     poll() {
-        console.log(123123213)
         setTimeout(() => this.emit('poll'), this.timeout);
     }
 
